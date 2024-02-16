@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+html{
+    background: #000;
+}
+
+.d-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.w-30{
+    width: 120px;
+    height: 60px;
+}
+.list-style{
+    text-decoration: none;
+    color: wheat;
+    font-size: large;
+}
+.gap{
+    gap: 20px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-right: 30px;
+}
+.nav-items a{
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.main-buttons button{
+    font-size: large;
+    align-items: center;
+    gap:30px;
+    border: none;
+}
+.main-buttons{
+    display: flex;
+    gap:20px
+}
+.transparent{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.hamberger{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .hamberger{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    
+}
+.carousel-inner img{
+    width: 100%;
+    max-height: 600px;
+}
+.ml-2{
+    margin-left: 30px;
+}
+.fs-larger{
+    font-size: x-large;
+}
+p{
+    font-size: medium;
+}
+.card img{
+    
+    width: 100%;
+}
+.card{
+    width: 70%;
+}
+.align{
+    align-items: center;
+}
+header{
+    overflow: hidden;
+}
+.welcome-retaurant{
+    background: #000;
+}
+.container1{
+    background: #000;
+}
+header{
+    background: #000;
+}
+.space-l{
+    letter-spacing: 5px;
+}
+.bg-dark{
+    background-color: #000;
+}
+.welcome-retaurant-3{
+    background: #000;
+    
+}
+.shadow img{
+    position: relative;
+    z-index: 1;
+    margin-left: 205px;
+}
+h1{
+    font-size: xx-large;
+}
+.welcome-retaurant-4{
+    background-color: rgba(0, 0, 0, 0.932);
+}
